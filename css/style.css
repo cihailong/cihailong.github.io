@@ -477,19 +477,19 @@ ul.wmuSliderPagination {
 	overflow:hidden;
 }
 .b-link-stripe .b-wrapper{
-	/*  transform:rotate(45deg);  */
+	 transform:rotate(-45deg); 
 	position:absolute;
 	width:100%;
 	height:100%;
 	top:0;
 	left:0;
 	text-align:center;
-	color:#ffffff;
+	color:black;
 	overflow:hidden;
 }
 .b-link-stripe .b-wrapper:hover {
 	/*-background:rgba(222, 101, 115, 0.51);*/
-	transform:rotate(45deg);
+/* transform:rotate(45deg); */
 	transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
@@ -509,12 +509,12 @@ ul.wmuSliderPagination {
 	-o-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	visibility: hidden;
-	font-size:1.1em;
+	font-size:1.5em;
 	font-weight:700;
 	width: 75%;
 	margin: 0 auto;
-	top: 119px;
-	color: #FFD670;
+	top: 110px;
+	color: red;
 }
 .xiangmu span{
 	color: black;
@@ -550,8 +550,7 @@ div#portfoliolist {
 	padding: 0px 0px;
 }	
 .portfolio-wrapper {
-	
-   /*  transform:rotate(45deg); */
+  transform:rotate(45deg);
 	overflow:hidden;
 	position: relative!important;
 	cursor:pointer;
